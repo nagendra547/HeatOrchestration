@@ -1,0 +1,18 @@
+---
+- name: Stack
+  hosts: localhost
+  tasks:
+  - name: create stack Server
+    os_stack:
+      name: "Server"
+      state: present
+      template: "../heat_template/heat_server_instance.yml"
+      parameters:
+          instance_name: ServerVM
+          flavor_name: m1.small
+          image_name: Ubuntu
+          keypair_name: Heat
+          security_group: Demo
+          network_name: private
+          floating_ip_pool: public
+
