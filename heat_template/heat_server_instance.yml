@@ -73,12 +73,10 @@ resources:
       user_data_format: RAW
       user_data: |
         #!/bin/bash
-        mkdir test1
         sudo apt-get update
         sudo apt-get install -y apache2
-        mkdir test2
-	cd /var/www/html
-	echo "YAY!! we learnt heat orchestration using ansible" > index.html
+        cd /var/www/html
+        echo "YAY!! we learnt heat orchestration using ansible" > index.html
         #... 
   floating_ip:
     type: OS::Nova::FloatingIP
