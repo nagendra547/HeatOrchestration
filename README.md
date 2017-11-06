@@ -1,10 +1,10 @@
 # HeatOrchestration
 
 What is Heat?
-Heat is the main project of the OpenStack orchestration program. It allows users to describe deployments of complex cloud applications in text files called templates. These templates are then parsed and executed by the Heat engine.
+Heat is the main project of the OpenStack orchestration program. It allows users to describe deployments of complex cloud applications in text files called templates. These templates are then parsed and executed by the Heat engine. More information about Heat  https://wiki.openstack.org/wiki/Heat
 
 What is ansible?
-Ansible is software that automates software provisioning, configuration management, and application deployment.
+Ansible is software that automates software provisioning, configuration management, and application deployment. Read more about Ansible https://www.ansible.com/how-ansible-works
 
 Prerequisites:
 Openstack Installation done using DevStack or any other OpenStack distribution that includes Heat. 
