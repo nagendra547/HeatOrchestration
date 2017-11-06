@@ -97,5 +97,5 @@ outputs:
     description: Name of the instance.
     value: { get_attr: [ my_instance, name ] }
   instance_ip:
-    description: Name of the instance.
+    description: IP address of the instance.
     value: { get_attr: [ my_instance, first_address ] } 
